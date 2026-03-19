@@ -27,19 +27,6 @@ Users can draw digits (0–9) on a canvas, and the model predicts the digit in r
 
 ---
 
-## Project Structure
-
-image-classifier-mnist/
-│
-├── main.py          # Train CNN model
-├── app.py           # Backend API
-├── index.html       # Frontend UI
-├── requirements.txt
-└── model/
-└── mnist_model.h5
-
----
-
 ## Installation
 
 ```bash
@@ -53,25 +40,27 @@ pip install -r requirements.txt
 ### 1. Train Model (first time only)
 
 ```bash
-python main.py
+python main.py   # Run 'main.py' once to generate trained model (mnist_model.h5)
 ```
 
 ### 2. Start Backend
 
 ```bash
-python app.py
+python app.py  #run 'app.py' file.
 ```
 
-### 3. Open Frontend
+### 3. Open Frontend 
 
-Open `index.html` in browser
+Open index.html in your browser (right click --> open in --> Browser)
+
+Make sure app.py is running in the background
 
 ---
 
 ## Output
 
 * Predicts digit drawn on canvas
-* Shows model accuracy (~98–99%)
+* Shows model accuracy
 
 ---
 
