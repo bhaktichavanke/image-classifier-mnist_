@@ -51,7 +51,7 @@ python app.py  #run 'app.py' file.
 
 ### 3. Open Frontend 
 
-Open index.html in your browser (right click --> open in --> Browser)
+Open index.html in your browser (right click on 'index.html' --> open in --> Browser)
 
 Make sure app.py is running in the background
 
